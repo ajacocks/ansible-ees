@@ -1,0 +1,18 @@
+---
+collections:
+  - name: amazon.aws
+  - name: ansible.controller
+  - name: ansible.eda
+  - name: ansible.platform
+  - name: ansible.posix
+  - name: ansible.netcommon
+  - name: ansible.utils
+  - name: community.general
+  - name: infra.aap_configuration
+    source: https://galaxy.ansible.com
+  - name: redhat.openshift
+#  - name: community.docker
+#  - name: containers.podman
+#  - name: f5networks.f5_bigip
+#  - name: f5networks.f5_modules
+#  - name: servicenow.itsm
