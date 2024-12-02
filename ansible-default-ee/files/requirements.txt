@@ -12,3 +12,4 @@
 boto
 boto3
 botocore
+kubernetes
