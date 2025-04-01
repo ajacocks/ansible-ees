@@ -12,4 +12,6 @@
 boto
 boto3
 botocore
+cryptography
 kubernetes
+python-gitlab

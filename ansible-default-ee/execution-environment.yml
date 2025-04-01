@@ -33,7 +33,7 @@ additional_build_steps:
     - RUN whoami
     - RUN cat /etc/os-release
     - RUN echo PKGMGR = $PKGMGR, PYCMD = $PYCMD
-    - RUN microdnf update -y --nodocs --setopt install_weak_deps=0 && microdnf install -y --nodocs --setopt install_weak_deps=0 glibc-langpack-en python3.12-devel python3.12-packaging python3.12-pip python3.12-pip-wheel python3.12-setuptools python3.12-wheel
+    - RUN microdnf update -y --nodocs --setopt install_weak_deps=0 && microdnf install -y --nodocs --setopt install_weak_deps=0 glibc-langpack-en python3.12-devel python3.12-packaging python3.12-pip python3.12-pip-wheel python3.12-setuptools python3.12-wheel python3.12-cryptography
     - RUN alternatives --set python3 /usr/bin/python3.12
     - RUN $PYCMD -m pip install --upgrade pip setuptools
   prepend_galaxy:
